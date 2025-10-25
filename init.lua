@@ -1031,7 +1031,7 @@ require('lazy').setup({
 -- vim: ts=2 sts=2 sw=2 et
 
 --user added, tabstop adjustment
-vim.o.tabstop = 2 -- Number of spaces a tab character represents
-vim.o.shiftwidth = 2 -- Number of spaces for each indentation level
+vim.o.tabstop = 4 -- Number of spaces a tab character represents
+vim.o.shiftwidth = 4 -- Number of spaces for each indentation level
 vim.o.expandtab = true -- Use spaces instead of tab characters
-vim.o.softtabstop = 2 -- Number of spaces for tab key in insert mode
+vim.o.softtabstop = 4 -- Number of spaces for tab key in insert mode
